@@ -330,12 +330,12 @@ const Index = () => {
    return (
       <>
          <Head>
-            <title>{configSettings.appName}</title>
+            <title>{'configSettings.appName'}</title>
             <link rel='icon' href='/favicon.ico'></link>
          </Head>
          <StatusBar></StatusBar>
          <div className='main'>
-            <Title title={configSettings.appName}></Title>
+            <Title title={'configSettings.appName'}></Title>
             <Grid grid={grid}></Grid>
             <Keyboard keyboard={keyboard} handleKeyDown={(e) => handleKeyDown(e)}></Keyboard>
          </div>
