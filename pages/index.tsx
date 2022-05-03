@@ -334,6 +334,7 @@ const Index = () => {
             <link rel='icon' href='/favicon.ico'></link>
          </Head>
          <StatusBar></StatusBar>
+         
          <div className='main'>
             <Title title={'configSettings.appName'}></Title>
             <Grid grid={grid}></Grid>
